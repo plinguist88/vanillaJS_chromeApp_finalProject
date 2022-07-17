@@ -11,6 +11,11 @@ function submitToDoList(event) {
 
   let curToDos = toDos.length;
 
+  if (!savedUsername) {
+    alert('Log In, Please!!');
+    return;
+  }
+
   if (toDos.length > 9) {
     $toDoInput.value = '';
     alert('Too Many To Do List!!');

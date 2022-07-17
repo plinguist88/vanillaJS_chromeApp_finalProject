@@ -83,6 +83,18 @@ body {
   font-size: 1.5rem;
 }
 
+#logout {
+  padding: 0 5px;
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+
+#logout:hover {
+  color: #fff;
+  background-color: #000;
+  transition: all ease 1s 0s;
+}
+
 #toDoForm input {
   width: 500px;
   font-size: 1.5rem;
