@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+    <div id="leftSide">
+      <div id="time">
+        <div></div>
+        <div></div>
+        <div>
+          <span>AM</span><span>PM</span>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+      <div id="weather">
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+      <div id="email">plinguist88@gmail.com</div>
+    </div>
+    <div id="rightSide">
+      <div id="rightTop">
+        <form id="loginForm">
+          <input required type="text" placeholder="What`s Your Name?" />
+          <button>Log In</button>
+        </form>
+        <div id="user" class="hidden"></div>
+      </div>
+      <div>
+        <form id="toDoForm">
+          <input required type="text" placeholder="What`s Your to Do List? (Max To Do List is 10)" maxlength="50"/>
+          <button>Add</button>
+        </form>
+        <ul id="toDoList"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/time.js"></script>
+  <script src="js/login.js"></script>
+  <script src="js/toDo.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+
+</html>

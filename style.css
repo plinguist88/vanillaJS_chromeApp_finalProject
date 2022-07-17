@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container {
+  position: relative;
+  display: flex;
+}
+
+#leftSide {
+  position: relative;
+  width: 20%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+#leftSide #time {
+  font-size: 5rem;
+}
+
+#leftSide #weather {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 15%;
+  font-size: 2rem;
+  border-top: 5px double #000;
+}
+
+
+#leftSide #email {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 5%;
+  font-size: 2rem;
+  border-top: 5px double #000;
+}
+
+#rightSide {
+  position: relative;
+  width: 80%
+}
+
+#rightTop {
+  position: relative;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #fff;
+}
+
+#loginForm input {
+  border: none;
+  border-bottom: 2px solid #000;
+  font-size: 1.5rem;
+}
+
+#loginForm button {
+  padding: 0 5px;
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+
+#loginForm button:hover {
+  color: #fff;
+  background-color: #000;
+  transition: all ease 1s 0s;
+}
+
+#user {
+  font-size: 1.5rem;
+}
+
+#toDoForm input {
+  width: 500px;
+  font-size: 1.5rem;
+}
+
+#toDoForm button {
+  padding: 0 5px;
+  border: none;
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+
+#toDoForm button:hover {
+  color: #fff;
+  background-color: #000;
+  transition: all ease 1s 0s;
+}
+
+#toDoList {
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+#toDoList li {
+  list-style: none;
+  width: 50%;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: 2px solid #000;
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+
+#toDoList button {
+  position: absolute;
+  right: 50%;
+  border: none;
+  font-size: 1.5rem;
+  color: blue;
+  background-color: #fff;
+}
+
+#toDoList button:hover {
+  color: red;
+  transform: rotate(360deg);
+  transition: all ease 1s 0s;
+}
+
+.hidden {
+  display: none;
+}
